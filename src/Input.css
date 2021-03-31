@@ -1,0 +1,36 @@
+input:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color:#29afe1 ;
+    color: white;
+}
+.btn{
+    border: none;  
+    border-radius:30px;
+    padding:10px 40px 10px 40px;
+
+}
+#email{
+        display:inline; 
+        border: none;
+        border-radius: 40px 0px 0px 40px; 
+        padding: 10px 10px 10px 40px; 
+        box-shadow : 0px 0px 5px grey; 
+        width:800px;
+        height: 80px;
+}
+#sub{
+    background-color: #29afe1;
+    display:inline; 
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+     box-shadow : 0px 0px 5px grey; 
+     padding: 10px; 
+     width:250px; 
+     height:80px;
+}
+#sub:hover{
+    background-color:#2b3e90 ;
+    color: white;
+}
