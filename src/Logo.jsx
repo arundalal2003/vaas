@@ -16,18 +16,24 @@ export default class Logo extends Component {
 
     render() {
         return (
-            <div>
+        //     <div>
             
-        <nav className="navbar navbar-light bg-white fixed-top shadow"  > 
-            <a className="navbar-brand" href="#">
-                <img src="vasmortgage.jpg" style={{width:"100px", height:"100px", }} alt=""/>
-            </a>
+        // <nav className="navbar navbar-light bg-white fixed-top shadow"  > 
+        //     <a className="navbar-brand" href="#">
+        //         <img src="vasmortgage.jpg" style={{width:"90px", height:"90px", }} alt=""/>
+        //     </a>
           
             
-        </nav> 
+        // </nav> 
+        <div className="container-fluid  bg-white fixed-top shadow">
+        <a  href="#">
+                <img src="vasmortgage.jpg" style={{width:"110px", height:"110px", }} alt=""/>
+            </a>
+
+        </div>
               
     
-            </div>
+            // </div>
         )
     }
 }

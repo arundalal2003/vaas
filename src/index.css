@@ -9,8 +9,16 @@ body {
   background-image: url("banner2.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  font-family: Arial, Helvetica, sans-serif!important;
+  line-height: 1.80857;
 
  }
+ .text-bg h1 {
+     
+  font-size: 43px;
+  line-height: 54px;
+  padding-bottom: 10px;
+}
 
 
 
