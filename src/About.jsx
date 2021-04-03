@@ -10,18 +10,18 @@ const About =() => {
         
     }
     return <>
-    <div   style ={topMargin}>
-        <div className="container-fluid ml-4">
+    <div   style={topMargin}>
+        <div className="container-fluid ml-5">
    
             <div className="row " >
                 <div className= "col-lg-6 col-md-6 col-12  ">
                     <h1 className=" text-bg">YOUR JOURNEY BEGINS<br/> WITH US!</h1>
-                    <p className= " pt-3 pb-2 " id="about-menu"> Lowest mortgage rates<br/>
+                    <p className= "  pb-2 " id="about-menu"> Lowest mortgage rates<br/>
                         Efficient and Faster Closing Process<br/>
                         A Team available anytime to serve your mortgage needs<br/>
                         Personalized customer service<br/>
                     </p>
-                    <button class="btn btn-primary " style={{borderRadius:"28px", padding:"13px 33px 13px 33px"}} type="submit">GET A QUOTE</button>
+                    <button class="btn btn-primary quote" type="submit">GET A QUOTE</button>
                 </div>
                 <div className= "col-lg-6 col-md-6 col-12" >
                     <img className= "img-fluid " src={"img2.png"} style = {{width:"550px", height:"350px"}} alt="loan image" />
@@ -31,7 +31,7 @@ const About =() => {
         <div className="container">
             <div className= "row pt-5 ">
                 <div className= "col-lg-6 col-md-6 col-12 pt-5">
-                    <h1  style={{fontSize:"50px", color:"navy"}}><b>About Us</b></h1>
+                    <h1  className="about" ><b>About Us</b></h1>
                     <p className="text-justify">
                     At VAS Mortgage LLC we are committed to helping families 
                     and individuals achieve the dream of home ownership. 
@@ -53,8 +53,6 @@ const About =() => {
             </div>
         </div>
     </div>
-
-
     </>
     
 }
