@@ -1,0 +1,77 @@
+
+.bgcolor{
+    background-color: rgb(165, 166, 233);
+    height: 100vh;
+    
+}
+p{
+    font-size: 15px; 
+    text-align:center;
+}
+.login input{
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding-left: 10px;
+    height: 40px;
+}
+input[type=submit]{
+        border: none;
+        background-color:green;
+        width:100%; 
+        margin:10px 0px 15px 0px;
+}
+input[type=submit] {
+    color:white;
+    font-weight: bold;
+}
+input[type=Checkbox]{
+    width: 20px;
+    height: inherit;
+}
+
+
+#cont1{
+        background-color:#f2f3f7; 
+        border-radius:3px; 
+        padding-top:40px; 
+        width:350px; 
+        height:500px;
+}
+input:focus{
+    border: 2px solid green;
+
+}
+.close {
+    position: relative;
+    right: 15px;
+    top: -20px;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  p span:hover {
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      background-color: green;
+      border-radius: 2px;
+      padding: 5px;
+  }
+@media(max-width:490px){
+    #cont1{
+        width: 85%;
+    }
+    input{
+        margin: 6px 0px 6px 0px;
+        height: 30px;
+    }
+
+}

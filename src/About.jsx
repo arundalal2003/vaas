@@ -39,7 +39,7 @@ const About =() => {
                     exactly what to expect when you get a mortgage with us. 
                     We strive to provide you a very pleasant experience with our team.
                     </p>
-                    <p>
+                    <p id= "aboutus">
                     For us your satisfaction comes first. So expect that we have a team 
                     behind that cares about you. We will communicate in the best way that’s 
                     comfortable for you, providing timely updates about the progress of your loan.

@@ -5,6 +5,7 @@ import EmailIcon from '@material-ui/icons/Email';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import "./Input.css";
 
 
@@ -29,16 +30,17 @@ const Contact =() =>{
     
             <div className=" row">
                 <h1>Newsletter</h1>
-                <p>THE MORTGAGE CLIENT NEWSLETTER YOU'VE BEEN WAITING FOR Stand out from the pack, 
+                <p style={{textAlign:"left"}}>THE MORTGAGE CLIENT NEWSLETTER YOU'VE BEEN WAITING FOR Stand out from the pack, 
                 every quarter, with the most advanced mortgage client newsletter solution in the industry. 
                 Incredibly customizable. Great looking. Packed with serious mortgage insights.</p>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 col-12 text-light mb-3" style={noBorder}>
+                        <div className="col-lg-4 col-md-4 col-12 text-light" style={noBorder}>
+                        <div style={{lineHeight:"40px"}}>
                             <h3>Contact us</h3>
                             <div ><LocationOnIcon/></div>
                     
-                            <ul className="cols-md-9" style={{listStyle:"none",marginTop:"-25px"}}>
+                            <ul className="cols-md-9" style={{listStyle:"none",marginTop:"-25px", lineHeight:"30px"}}>
                                 <li>  VAS Mortgage LLC</li>
                                 <li> 153 Farmers Folly Dr</li>
                                 <li>Mooresville, NC 28117</li>
@@ -51,26 +53,30 @@ const Contact =() =>{
                             <a href="" className="text-light"><TwitterIcon /> {" "}</a>
                             <a href="" className="text-light"><LinkedInIcon  /> {"  "}</a>
                          </div>
+                         </div>
                     </div>
-                        <div className="card col-lg-4 col-md-4 col-12 text-light mb-3" style={noBorder}>
+                        <div className="card col-lg-4 col-md-4 col-12 text-light "  style={noBorder}>
+                        
                             <h3>About</h3>
-                            <ul style={{lineHeight:"40px"}}>
-                                <li>Purchase & Refinance</li>
-                                <li>First Time Home Buyers</li>
-                                <li>New Construction Loans</li>
-                                <li>Home Improvement & Rehab Loans</li>
-                                <li>Second Homes & Investment Properties</li>
-                                <li>Single Family & Multi Unit Condos</li><br/>
-                                <div > <a href=""><img src="EqualOpp.png" style={{width: "25%",borderRadius:"10px" }}></img></a></div>
+                            <ul class="iconstyle" >
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> {" "}Purchase & Refinance</li>
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> {" "}First Time Home Buyers</li>
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> {" "}New Construction Loans</li>
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> {" "}Home Improvement & Rehab Loans</li>
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> {" "}Second Homes & Investment Properties</li>
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> vSingle Family & Multi Unit Condos</li><br/>
+                                
                             </ul>
+                            
                         </div>
-                        <div className="card col-lg-4 col-md-4 col-12 mb-3" style={noBorder}>
+                        <div className="card col-lg-4 col-md-4 col-12" style={noBorder}>
                             <h3>Disclaimers</h3>
-                            <ul>
-                                <li>Legal</li>
-                                <li>Privacy Policy</li>
+                            <ul class="iconstyle">
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> {" "}Legal</li>
+                                <li> <FiberManualRecordIcon style={{ fontSize: 20 }}/> {" "}Privacy Policy</li>
                             </ul>
                         </div>
+                        <div  style={{display:"flex", alignItems:"center", justifyContent:"center"}}> <a href=""><img src="EqualOpp.png" style={{ width: "35%",borderRadius:"10px" }}></img></a></div>
                     </div>
                     <div></div>
                 </div>
